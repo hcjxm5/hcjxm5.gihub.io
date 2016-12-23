@@ -1,6 +1,7 @@
 body {
       background-image: url("Background.jpg");
 	  font-size: 16px;
+	   
 }
 
 
@@ -12,20 +13,22 @@ body {
 background-image: linear-gradient(130deg, #155799, #c5dfe8);
 
 width 100%;
-height: 200px;
-border-bottom: 2px solid #000000;
+height: 25%;
+
 
 }
 
 #container {
 
-width: 100%;
+min-width: 100%;
 margin-left: auto;
 margin-right: auto;
+min-height:100%;
+   position:relative;
 }
 
 #content {
-padding: 10px;
+padding-bottom:50px;
 
 }
 
@@ -48,12 +51,20 @@ Height: 55%;
 #main {
 text-align: left;
 width: 100%;
+padding: 10px;
+padding-bottom:60px;
 
-float: center;
+
+/*float: center;*/
 }
 
 #footer {
 width: 100%;
+
+position: relative;
+   bottom: -75px;
+   
+
 clear: both;
 border-width: 1px;
 	border-style: solid;
