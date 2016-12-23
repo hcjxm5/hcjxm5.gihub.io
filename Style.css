@@ -1,6 +1,7 @@
 body {
       background-image: url("Background.jpg");
 	  font-size: 16px;
+	  
 	   
 }
 
@@ -25,6 +26,8 @@ margin-left: auto;
 margin-right: auto;
 min-height:100%;
    position:relative;
+   margin-bottom: -50px;
+   
 }
 
 #content {
@@ -58,11 +61,15 @@ padding-bottom:60px;
 /*float: center;*/
 }
 
+#push{
+height: 170px;
+}
+
 #footer {
 width: 100%;
 
-position: relative;
-   bottom: -75px;
+position: bottom; 
+    
    
 
 clear: both;
